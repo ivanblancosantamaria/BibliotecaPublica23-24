@@ -47,4 +47,15 @@ public class Book {
     public void setPublicationDate(Date publicationDate) {
         this.publicationDate = publicationDate;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "isbn='" + isbn + '\'' +
+                ", title='" + title + '\'' +
+                ", fullNameAuthor='" + fullNameAuthor + '\'' +
+                ", libraryGenre='" + libraryGenre + '\'' +
+                ", publicationDate=" + publicationDate +
+                '}';
+    }
 }

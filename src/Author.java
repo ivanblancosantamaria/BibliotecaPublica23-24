@@ -61,4 +61,16 @@ public class Author {
     public void setBormCountry(String bormCountry) {
         this.bormCountry = bormCountry;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", surname1='" + surname1 + '\'' +
+                ", surname2='" + surname2 + '\'' +
+                ", numBook=" + numBook +
+                ", dateAge=" + dateAge +
+                ", bormCountry='" + bormCountry + '\'' +
+                '}';
+    }
 }

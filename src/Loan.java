@@ -3,6 +3,7 @@ import java.util.Date;
 public class Loan {
 
     private String book;
+
     private String userDate;
     private Date loanDate;
     private Date returnDate;
@@ -38,4 +39,15 @@ public class Loan {
     public void setReturnDate(Date returnDate) {
         this.returnDate = returnDate;
     }
+
+    @Override
+    public String toString() {
+        return "Loan{" +
+                "book='" + book + '\'' +
+                ", userDate='" + userDate + '\'' +
+                ", loanDate=" + loanDate +
+                ", returnDate=" + returnDate +
+                '}';
+    }
 }
+
