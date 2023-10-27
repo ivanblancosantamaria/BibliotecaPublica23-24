@@ -1,13 +1,10 @@
-import javax.xml.crypto.Data;
-import java.util.Date;
-
 public class Author {
 
     private String name;
     private String surname1;
     private String surname2;
     private int numBook;
-    private Date dateAge;
+    private int dateAge;
     private String bormCountry;
 
 
@@ -46,11 +43,11 @@ public class Author {
         this.numBook = numBook;
     }
 
-    public Date getDateAge() {
+    public int getDateAge() {
         return dateAge;
     }
 
-    public void setDateAge(Date dateAge) {
+    public void setDateAge(int dateAge) {
         this.dateAge = dateAge;
     }
 
