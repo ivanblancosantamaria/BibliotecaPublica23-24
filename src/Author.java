@@ -1,11 +1,11 @@
 public class Author {
 
-    private String name;
-    private String surname1;
-    private String surname2;
-    private int numBook;
-    private int dateAge;
-    private String bormCountry;
+    private static String name;
+    private static String surname1;
+    private static String surname2;
+    private static int numBook;
+    private static int dateAge;
+    private static String bormCountry;
 
 
 
@@ -59,15 +59,15 @@ public class Author {
         this.bormCountry = bormCountry;
     }
 
-    @Override
+
     public String toString() {
-        return "Author{" +
-                "name='" + name + '\'' +
-                ", surname1='" + surname1 + '\'' +
-                ", surname2='" + surname2 + '\'' +
-                ", numBook=" + numBook +
-                ", dateAge=" + dateAge +
-                ", bormCountry='" + bormCountry + '\'' +
+        return "Author { " +
+                "name = '" + name + '\'' +
+                ", surname1 = '" + surname1 + '\'' +
+                ", surname2 = '" + surname2 + '\'' +
+                ", numBook = " + numBook +
+                ", dateAge = " + dateAge +
+                ", bormCountry = '" + bormCountry + '\'' +
                 '}';
     }
 }

@@ -21,9 +21,9 @@ public class LibraryGenre {
 
     @Override
     public String toString() {
-        return "LibraryGenre{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
+        return "LibraryGenre-> " +
+                "name= '" + name + '\'' +
+                ", description= '" + description + '\'' +
                 '}';
     }
 }

@@ -42,11 +42,11 @@ public class Loan {
 
     @Override
     public String toString() {
-        return "Loan{" +
-                "book='" + book + '\'' +
-                ", userDate='" + userDate + '\'' +
-                ", loanDate=" + loanDate +
-                ", returnDate=" + returnDate +
+        return "Loan { " +
+                "book = '" + book + '\'' +
+                ", userDate = '" + userDate + '\'' +
+                ", loanDate = " + loanDate +
+                ", returnDate = " + returnDate +
                 '}';
     }
 }

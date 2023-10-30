@@ -4,7 +4,7 @@ public class Book {
 
     private String isbn;
     private String title;
-    private String fullNameAuthor;
+    private String fullNameAuthor  ;
     private String libraryGenre;
     private Date publicationDate;
 
@@ -25,10 +25,11 @@ public class Book {
     }
 
     public String getFullNameAuthor() {
-        return fullNameAuthor;
+        return fullNameAuthor ;
     }
 
     public void setFullNameAuthor(String fullNameAuthor) {
+
         this.fullNameAuthor = fullNameAuthor;
     }
 
@@ -50,12 +51,12 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "isbn='" + isbn + '\'' +
-                ", title='" + title + '\'' +
-                ", fullNameAuthor='" + fullNameAuthor + '\'' +
-                ", libraryGenre='" + libraryGenre + '\'' +
-                ", publicationDate=" + publicationDate +
+        return "Book { " +
+                "isbn = '" + isbn + '\'' +
+                ", title = '" + title + '\'' +
+                ", fullNameAuthor = '" + fullNameAuthor + '\'' +
+                ", libraryGenre = '" + libraryGenre + '\'' +
+                ", publicationDate = " + publicationDate +
                 '}';
     }
 }
