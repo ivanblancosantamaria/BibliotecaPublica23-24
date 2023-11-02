@@ -8,6 +8,8 @@ public class Book {
     private String libraryGenre;
     private Date publicationDate;
 
+    private Loan loan;
+
     public String getIsbn() {
         return isbn;
     }
@@ -47,6 +49,14 @@ public class Book {
 
     public void setPublicationDate(Date publicationDate) {
         this.publicationDate = publicationDate;
+    }
+
+    public Loan getLoan() {
+        return loan;
+    }
+
+    public void setLoan(Loan loan) {
+        this.loan = loan;
     }
 
     @Override
